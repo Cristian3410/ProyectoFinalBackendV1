@@ -1,6 +1,5 @@
 import app from "./app.js";
-import {PORT} from "./configV2.js"
 
 
-app.listen(PORT);
-console.log(`escuchando en el puerto ${PORT}`);
+app.listen(3000);
+console.log("escuchando en el puerto 3000");
