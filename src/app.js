@@ -10,6 +10,8 @@ const app = exprees();
 
 app.use("/api",cors({
     origin: ["https://cristian3410.github.io","http://localhost:5173","https://backendproyetofinalv2.onrender.com"],
+
+
     credentials:true
 }));                                                                    
 

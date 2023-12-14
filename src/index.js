@@ -1,5 +1,7 @@
+import dotenv from "dotenv"
+dotenv.config()
 import app from "./app.js";
 
 
-app.listen(3000);
-console.log("escuchando en el puerto 3000");
+app.listen(process.env.PORT);
+console.log("contectado");
