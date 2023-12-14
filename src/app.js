@@ -8,7 +8,7 @@ import adminRoutes from "./routes/admin.routes.js"
 
 const app = exprees();
 
-app.use("/api",cors({
+app.use(cors({
     origin: ["https://cristian3410.github.io","http://localhost:5173","https://backendproyetofinalv2.onrender.com"],
 
 
